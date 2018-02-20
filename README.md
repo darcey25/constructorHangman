@@ -1,0 +1,2 @@
+# constructorHangman
+pure javascript hangman
