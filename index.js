@@ -1,5 +1,5 @@
 var Word = require("./word.js");
-var inquirer = require("inquirer");
+var inquirer = require("inquirer").default;
 var guessingWords = ["ecuador", "colombia", "venezuela", "chile", "brazil", "argentina", "uruguay", "paraguay", "bolivia", "peru", "suriname", "guyana"];
 var randomWord = guessingWords[Math.floor(Math.random()*guessingWords.length)];
 var guessesLeft = 10
